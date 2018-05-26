@@ -3,6 +3,8 @@ A light-weight web server for reacting [GitHub Webhooks](https://developer.githu
 
 一个简单 WEB 服务器，当收到 [GitHub Webhooks](https://developer.github.com/webhooks/) 发出的请求后执行 shell 命令，如 `git pull`，仅此而已
 
+Hexo 用这个配合 [hexo-deployer-git](https://github.com/hexojs/hexo-deployer-git) 使用 `hexo clean | hexo g | hexo d`，服务器端自动执行 `git pull`，美滋滋 #(滑稽)
+
 ## Requirements
 - Python 3
 - Flask
