@@ -19,5 +19,12 @@ python qwqaq-webhook-server.py
 
 > 另：Windows Server 可使用 [NSSM](http://nssm.cc) 让其变成服务，后台运行
 
+#### Coding 的 Webhooks 这样配置
+
+`请求 URL: http://[domain]:[port]/[path]?token=[token]`
+
+![](https://user-images.githubusercontent.com/22412567/40578472-1731a19c-6147-11e8-87ac-0307fb774f13.png)
+
+
 ## Author
 [ZNEIAT](http://www.qwqaq.com)
