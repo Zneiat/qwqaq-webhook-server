@@ -1,7 +1,7 @@
 # qwqaq-webhook-server
-A light-weight web server for reacting GitHub Webhooks and executing shell commands.
+A light-weight web server for reacting [GitHub Webhooks](https://developer.github.com/webhooks/) and executing shell commands.
 
-一个简单 WEB 服务器，当接收到 GitHub Webhooks 后执行命令，如 `git pull`，仅此而已
+一个简单 WEB 服务器，当收到 [GitHub Webhooks](https://developer.github.com/webhooks/) 发出的请求后执行 shell 命令，如 `git pull`，仅此而已
 
 ## Requirements
 - Python 3
